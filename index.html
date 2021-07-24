@@ -12,7 +12,7 @@
       <div class="div-principal">
         <h1>PSWD Helper</h1>
         <div>
-          <form>
+          <div class="form">
             <input
               type="text"
               name="senha"
@@ -20,7 +20,7 @@
               placeholder="Digite uma senha aqui, para ver o quão forte ela é..."
             />
             <button>Checar</button>
-          </form>
+          </div>
           <div class="column">
             <div style="width: 7px; height: 7px; margin-top: 0.5rem"></div>
             <div style="width: 5px; height: 5px; margin-top: 0.2rem"></div>
@@ -31,7 +31,7 @@
       </div>
       <div class="div-secundaria">
         <h3>Gerar senha aleatória</h3>
-        <form>
+        <div class="form">
           <input
             type="text"
             name="aleatorio"
@@ -39,9 +39,11 @@
             disabled
             value="***************************"
           />
-          <button>Gerar</button>
-        </form>
+          <button class="gerarSenha">Gerar</button>
+        </div>
       </div>
     </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
