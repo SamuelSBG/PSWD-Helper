@@ -60,7 +60,7 @@ body {
   border-radius: 0 0.5rem 0.5rem 0;
 }
 
-p {
+.paragrafo {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -93,14 +93,33 @@ p {
   color: white;
 }
 
-.column {
+.informacoes {
   display: flex;
   flex-direction: column;
-  line-height: 0.3;
+  align-items: center;
+
+  margin: 1rem auto 1rem auto;
+
+  height: 14rem;
+  width: 28rem;
+
+  overflow: auto;
 }
 
-.column div {
-  align-self: center;
-  border-radius: 50%;
-  background-color: black;
+.informacoes p {
+  padding: 0.5rem 0;
+}
+
+.informacoes h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.informacoes div {
+  display: flex;
+  align-items: center;
+}
+
+svg {
+  fill: rgb(145, 0, 0);
 }
