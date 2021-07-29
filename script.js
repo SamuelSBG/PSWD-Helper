@@ -16,7 +16,7 @@ checar.addEventListener("click", () => {
     /[a-z]/gm.test(value) &&
     /[A-Z]/gm.test(value) &&
     /[!@#$%*()_+^&{}}:;?.]/gm.test(value) &&
-    !value.length < 10
+    value.length > 10
   ) {
     informacoes.innerHTML = "<h4>Parabéns! Sua senha é forte! :)</h4>";
   } else {
